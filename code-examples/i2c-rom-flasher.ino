@@ -9,8 +9,7 @@
 #define BASE_ADDR 0x50
 #define NEW_ADDR 0x52
 
-//#define STATUS_LED 5 // Minibadge debugger clock pin
-#define STATUS_LED 10 // Minibadge debugger clock pin
+#define STATUS_LED 5 // Minibadge debugger clock pin
 
 #include <Wire.h>
 
