@@ -78,11 +78,11 @@ For writing custom code for the debugger, it uses the following pins:
 |------------------------------|-------|
 | SDA with LED and 4.7k pullup | 2     |
 | SCL with LED and 4.7k pullup | 3     |
-| ArduinoISP SS                | 4     |
-| ISP Prog LED                 | 5     |
-| ISP Error LED                | 6     |
-| ISP HB LED                   | 7     |
-| Minibadge CLK Pin with LED   | 10    |
+| Minibadge CLK Pin with LED   | 5     |
+| ISP Prog LED                 | 7     |
+| ISP Error LED                | 8     |
+| ISP HB LED                   | 9     |
+| ArduinoISP SS                | 10    |
 
 The debugger works at 3.3v. This means the micro-controller (attiny32u4) has a maximum clock speed of 8MHz.
 It is based on the Arduino Micro, but that operates at 16MHz so you have to modify the boards.txt file to
