@@ -52,6 +52,17 @@ available via these 5 pins.
 
 ![Minibadge Programming](resources/programming.jpg)
 
+## Using the Debugger
+
+The debugger has a serial terminal accessible via the USB port at baud 115200.
+All that is needed to get it working is to connect with a serial terminal.
+There are many popular options.
+
+* Arduino's Serial Monitor
+* PuTTY
+* Minicom
+* Screen
+
 ## Using the Debugger as a Programmer
 
 The debugger has the capability to be used as an AVR programmer.
@@ -62,7 +73,7 @@ SAINTCON logo with the 4 immediately below those as pictured.
 The status LEDs (ISP Prog, ISP Error, ISP HB) are not provided with the debugger
 however any 1206 SMD resistor LED pair will work.
 
-![Debugger as arduinoISP](resources/as-isp.jpg)
+<img src="resources/as-isp.jpg" style="height:50em">
 
 While you can turn this into a programmer I would recommend purchasing a seperate
 programmer and connecting the separate programmer according the the table on the
